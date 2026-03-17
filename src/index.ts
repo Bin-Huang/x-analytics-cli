@@ -1,5 +1,9 @@
 #!/usr/bin/env node
+import { createRequire } from "node:module";
 import { Command } from "commander";
+
+const require = createRequire(import.meta.url);
+const { version } = require("../package.json") as { version: string };
 import { registerTweetCommands } from "./commands/tweets.js";
 import { registerUserCommands } from "./commands/users.js";
 import { registerSearchCommands } from "./commands/search.js";
@@ -10,7 +14,7 @@ const program = new Command();
 program
   .name("x-analytics-cli")
   .description("X Analytics CLI for AI agents")
-  .version("1.0.0")
+  .version(version)
   .option("--format <format>", "Output format", "json")
   .option("--credentials <path>", "Path to credentials JSON file")
   .addHelpText(
