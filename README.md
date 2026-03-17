@@ -1,6 +1,6 @@
 # x-analytics-cli
 
-Give AI agents direct access to X (Twitter) organic analytics. One command to authenticate, search tweets, and pull user and timeline data -- no SDK, no docs to read, no tokens wasted on boilerplate.
+X Analytics CLI for AI agents (and humans). Search recent tweets, count tweet volumes by time, pull user profiles and timelines, and more.
 
 **Works with:** OpenClaw, Claude Code, Cursor, Codex, and any agent that can run shell commands.
 
@@ -183,9 +183,11 @@ Errors are written to stderr as JSON with an `error` field and a non-zero exit c
 
 ## Related
 
-- [x-ads-cli](https://github.com/Bin-Huang/x-ads-cli) -- X Ads CLI for AI agents
-- [google-analytics-cli](https://github.com/Bin-Huang/google-analytics-cli) -- Google Analytics CLI for AI agents
-- [google-search-console-cli](https://github.com/Bin-Huang/google-search-console-cli) -- Google Search Console CLI for AI agents
+- [x-ads-cli](https://github.com/Bin-Huang/x-ads-cli) -- X Ads
+- [youtube-analytics-cli](https://github.com/Bin-Huang/youtube-analytics-cli) -- YouTube Analytics
+- [google-analytics-cli](https://github.com/Bin-Huang/google-analytics-cli) -- Google Analytics
+- [google-search-console-cli](https://github.com/Bin-Huang/google-search-console-cli) -- Google Search Console
+- [meta-ads-open-cli](https://github.com/Bin-Huang/meta-ads-open-cli) -- Meta Ads
 
 ## License
 
