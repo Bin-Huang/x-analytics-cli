@@ -10,11 +10,7 @@ X Analytics CLI for AI agents (and humans). Search recent tweets, count tweet vo
 npm install -g x-analytics-cli
 ```
 
-Or run directly with npx:
-
-```bash
-npx x-analytics-cli --help
-```
+Or run directly: `npx x-analytics-cli --help`
 
 ## How it works
 
