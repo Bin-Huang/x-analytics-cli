@@ -30,7 +30,7 @@ Core endpoints covered:
 
 1. Go to the [X Developer Portal](https://developer.x.com/) and sign in.
 2. Create a project and app if you don't have one.
-3. Make sure your app has at least Basic access (Free tier works for tweet lookup; Basic or higher for search and counts).
+3. Make sure your app has at least Basic access (Free tier only supports `GET /2/users/me`; Basic or higher is required for tweet lookup, user lookup, search, counts, and timelines).
 
 ### Step 2: Get your API credentials
 
