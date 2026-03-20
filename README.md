@@ -8,7 +8,7 @@ X Analytics CLI for AI agents (and humans). Search recent tweets, count tweet vo
 
 Tell your AI agent (e.g. OpenClaw):
 
-> Install the CLI and skills from https://github.com/Bin-Huang/x-analytics-cli
+> Install this CLI and skills from https://github.com/Bin-Huang/x-analytics-cli
 
 Or install manually:
 
