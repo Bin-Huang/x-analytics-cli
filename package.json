@@ -1,7 +1,7 @@
 {
   "name": "x-analytics-cli",
   "version": "1.0.3",
-  "description": "X Analytics CLI for AI agents",
+  "description": "X Analytics CLI & Skills for AI agents",
   "type": "module",
   "bin": {
     "x-analytics-cli": "dist/index.js"

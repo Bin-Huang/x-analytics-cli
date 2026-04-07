@@ -13,7 +13,7 @@ const program = new Command();
 
 program
   .name("x-analytics-cli")
-  .description("X Analytics CLI for AI agents")
+  .description("X Analytics CLI & Skills for AI agents")
   .version(version)
   .option("--format <format>", "Output format", "json")
   .option("--credentials <path>", "Path to credentials JSON file")
